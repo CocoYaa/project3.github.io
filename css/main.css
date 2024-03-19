@@ -104,7 +104,7 @@ body {
     border: 1px solid var(--background-color);
     padding: 10px;
     text-align: center;
-    transition: transform 0.3s ease; /* 添加变换的过渡效果 */
+    transition: transform 0.8s ease; /* 添加变换的过渡效果 */
     overflow: hidden; /* 文字超出部分隐藏 */
 }
 
