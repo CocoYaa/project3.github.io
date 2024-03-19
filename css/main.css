@@ -4,29 +4,28 @@
     box-sizing:border-box;
 }
 
-
 h1 {
     font-size: 500%;
-    text-align: center; /* 水平居中 */
-    line-height: 100px; /* h1 元素的高度 */
-    height: 100px; /* h1 元素的高度 */
+    text-align: center;
+    line-height: 100px;
+    height: 100px;
     font-family: "Times New Roman", serif;
-    margin-bottom: 10px; /* 标题下方的间距 */
+    margin-bottom: 10px;
     color: azure;
     font-family: "American Typewriter", serif;
 }
 
 h2 {
     font-size: 300%;
-    text-align: center; /* 水平居中 */
-    line-height: 100px; /* h1 元素的高度 */
-    height: 100px; /* h1 元素的高度 */
+    text-align: center;
+    line-height: 100px;
+    height: 100px;
     position:relative;
-    top: 0x; /* 距离浏览器窗口顶部 20px */
-    right: 0%; /* 距离浏览器窗口右侧 20px */
+    top: 0x;
+    right: 0%;
     color: azure;
     font-family: "American Typewriter", serif;
-    margin-bottom: 30px; /* 调整与输入框之间的垂直间距 */
+    margin-bottom: 30px;
     margin-top: 5px;
 }
 
@@ -41,7 +40,7 @@ h4 {
     font-family: "American Typewriter", serif;
     font-size: 30px;
     color: rgb(204, 255, 212);
-    margin-bottom: 10px; /* 调整与输入框之间的垂直间距 */
+    margin-bottom: 10px;
 }
 
 p {
@@ -56,7 +55,7 @@ p:hover {
 }
 
 .colored-div {
-    color: #ffffff; /* 使用十六进制颜色值 */
+    color: #ffffff;
 }
 
 h1:hover {
@@ -76,52 +75,47 @@ h4:hover {
 }
 
 .colored-div:hover {
-    color: #fff348; /* 使用十六进制颜色值 */
+    color: #fff348;
 }
 
-/* 设置页面背景颜色 */
 body {
-    background-color: #000000; /* 使用十六进制颜色值 */
+    background-color: #000000;
 }
 
-/* 定义网格容器 */
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(2, 500px); /* 两列 */
-    grid-template-rows: repeat(2, 500px); /* 两行 */
-    gap: 200px; /* 格子之间的间距 */
-    grid-row-gap: 10px; /* 上下间距 */
-    justify-content: center; /* 水平居中 */
-    align-items: center; /* 垂直居中 */
-    margin-top: 100px; /* 调整与输入框之间的垂直间距 */
+    grid-template-columns: repeat(2, 500px);
+    grid-template-rows: repeat(2, 500px);
+    gap: 200px;
+    grid-row-gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
 }
 
-/* 定义格子 */
 .grid-item {
-    width: 400x; /* 格子宽度 */
-    height: 470px; /* 格子高度 */
-    background-color: var(--background-color); /* 使用变量 */
+    width: 400x;
+    height: 470px;
+    background-color: var(--background-color);
     border: 1px solid var(--background-color);
     padding: 10px;
     text-align: center;
-    transition: transform 0.5s ease; /* 添加变换的过渡效果 */
-    overflow: hidden; /* 文字超出部分隐藏 */
+    transition: transform 0.5s ease;
+    overflow: hidden;
 }
 
-/* 鼠标悬停时放大 */
 .grid-item:hover {
-    transform: scale(1.1); /* 放大 1.1 倍 */
+    transform: scale(1.1);
 }
 
 a {
-    color: rgb(255, 213, 0); /* 设置链接的颜色为蓝色 */
-    font-family: "American Typewriter", serif;; /* 设置链接的字体 */
-    text-decoration: none; /* 去掉链接的下划线 */
+    color: rgb(255, 213, 0);
+    font-family: "American Typewriter", serif;
+    text-decoration: none;
 }
 
-/* 悬停时更改链接的颜色 */
 a:hover {
-    color: rgb(17, 195, 53); /* 设置悬停时链接的颜色为红色 */
+    color: rgb(17, 195, 53);
 }
 
 body {
