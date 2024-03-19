@@ -90,7 +90,7 @@ body {
     grid-template-columns: repeat(2, 500px); /* 两列 */
     grid-template-rows: repeat(2, 500px); /* 两行 */
     gap: 200px; /* 格子之间的间距 */
-    grid-row-gap: 80px; /* 上下间距 */
+    grid-row-gap: 10px; /* 上下间距 */
     justify-content: center; /* 水平居中 */
     align-items: center; /* 垂直居中 */
     margin-top: 100px; /* 调整与输入框之间的垂直间距 */
