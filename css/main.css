@@ -100,8 +100,8 @@ body {
 .grid-item {
     width: 400x; /* 格子宽度 */
     height: 470px; /* 格子高度 */
-    background-color: #000000;
-    border: 1px solid #000000;
+    background-color: var(--background-color); /* 使用变量 */
+    border: 1px solid var(--background-color);
     padding: 10px;
     text-align: center;
     transition: transform 0.3s ease; /* 添加变换的过渡效果 */
@@ -111,11 +111,10 @@ body {
 /* 鼠标悬停时放大 */
 .grid-item:hover {
     transform: scale(1.1); /* 放大 1.1 倍 */
-    color: transparent;
 }
 
 a {
-    color: rgb(255, 191, 211); /* 设置链接的颜色为蓝色 */
+    color: rgb(255, 213, 0); /* 设置链接的颜色为蓝色 */
     font-family: "American Typewriter", serif;; /* 设置链接的字体 */
     text-decoration: none; /* 去掉链接的下划线 */
 }
