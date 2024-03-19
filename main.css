@@ -1,0 +1,148 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+
+h1 {
+    font-size: 500%;
+    text-align: center; /* 水平居中 */
+    line-height: 100px; /* h1 元素的高度 */
+    height: 100px; /* h1 元素的高度 */
+    font-family: "Times New Roman", serif;
+    margin-bottom: 10px; /* 标题下方的间距 */
+    color: azure;
+    font-family: "American Typewriter", serif;
+}
+
+h2 {
+    font-size: 300%;
+    text-align: center; /* 水平居中 */
+    line-height: 100px; /* h1 元素的高度 */
+    height: 100px; /* h1 元素的高度 */
+    position:relative;
+    top: 0x; /* 距离浏览器窗口顶部 20px */
+    right: 0%; /* 距离浏览器窗口右侧 20px */
+    color: azure;
+    font-family: "American Typewriter", serif;
+    margin-bottom: 30px; /* 调整与输入框之间的垂直间距 */
+    margin-top: 5px;
+}
+
+h3 {
+    font-family: "American Typewriter", serif;
+    font-size: 30px;
+    color: aliceblue;
+    margin-bottom: 5px;
+}
+
+h4 {
+    font-family: "American Typewriter", serif;
+    font-size: 20px;
+    color: aliceblue;
+    margin-bottom: 10px; /* 调整与输入框之间的垂直间距 */
+}
+
+p {
+    color: aliceblue;
+    font-family: "American Typewriter", serif;
+    margin-top: 20px;
+    text-align: left;
+}
+
+p:hover {
+    color: rgb(116, 190, 255);
+}
+
+.colored-div {
+    color: #ffffff; /* 使用十六进制颜色值 */
+}
+
+h1:hover {
+    color: rgb(84, 249, 255);
+}
+
+h2:hover {
+    color: rgb(255, 132, 173);
+}
+
+h3:hover {
+    color: rgb(66, 56, 255);
+}
+
+h4:hover {
+    color: rgb(142, 86, 255);
+}
+
+.colored-div:hover {
+    color: #fff348; /* 使用十六进制颜色值 */
+}
+
+/* 设置页面背景颜色 */
+body {
+    background-color: #000000; /* 使用十六进制颜色值 */
+}
+
+/* 定义网格容器 */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 500px); /* 两列 */
+    grid-template-rows: repeat(2, 400px); /* 两行 */
+    gap: 200px; /* 格子之间的间距 */
+    grid-row-gap: 80px; /* 上下间距 */
+    justify-content: center; /* 水平居中 */
+    align-items: center; /* 垂直居中 */
+    margin-top: 100px; /* 调整与输入框之间的垂直间距 */
+}
+
+/* 定义格子 */
+.grid-item {
+    width: 400x; /* 格子宽度 */
+    height: 470px; /* 格子高度 */
+    background-color: #000000;
+    border: 1px solid #000000;
+    padding: 10px;
+    text-align: center;
+    transition: transform 0.3s ease; /* 添加变换的过渡效果 */
+    overflow: hidden; /* 文字超出部分隐藏 */
+}
+
+/* 鼠标悬停时放大 */
+.grid-item:hover {
+    transform: scale(1.1); /* 放大 1.1 倍 */
+}
+
+a {
+    color: rgb(255, 191, 211); /* 设置链接的颜色为蓝色 */
+    font-family: "American Typewriter", serif;; /* 设置链接的字体 */
+    text-decoration: none; /* 去掉链接的下划线 */
+}
+
+/* 悬停时更改链接的颜色 */
+a:hover {
+    color: rgb(17, 195, 53); /* 设置悬停时链接的颜色为红色 */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.typing-container {
+    display: inline-block;
+    overflow: hidden;
+}
+
+.typing-text {
+    display: inline-block;
+    animation: typing-animation 8s steps(40, end) infinite;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: .15em solid orange;
+}
+
+@keyframes typing-animation {
+    from { width: 0 }
+    to { width: 100% }
+}
