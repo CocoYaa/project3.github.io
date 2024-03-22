@@ -7,9 +7,15 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/main.css">
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-1.9.0.min.js"></script>
   </head>
 
   <body>
+    <div id="games">
+    <h2 class="fixed-text">Res<input type="text" class="cc" id="f1" >arch M<input type="text" class="cc" id="f2" >thods of Gr<input type="text" class="cc" id="f3" >phic Des<input type="text" class="cc" id="f4" >gn </h2>
+    </div>
+  
+    <div id="bodys" >
     <div id="titles">
 
       <div class="typing-container">
@@ -89,6 +95,21 @@
           <a href="https://saubin.ca" tagret="_blank">saubin.ca</a>
         </div>
 </div>
+
+<script>
+  $('#bodys').hide();
+  $('.cc').blur(function(){
+    var a1=$('#f1').val()
+    var a2=$('#f2').val()
+    var a3=$('#f3').val()
+    var a4=$('#f4').val()
+    if(a1=='e' &&a2=='e'&&a3=='a'&&a4=='i'){
+      alert('success')
+        $('#games').hide();
+        $('#bodys').show();
+    }
+  })
+  </script>
 
 </style>
 </head>
