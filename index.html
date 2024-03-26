@@ -3,11 +3,12 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title></title>
+    <title>Coco's Project 3</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/main.css">
     <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-1.9.0.min.js"></script>
+    <script src="js/script.js"></script>
   </head>
 
   <body>
@@ -21,25 +22,20 @@
       <div class="typing-container">
         <h1 class="typing-text">Research Methods of Graphic Design</h1>
         <h2 class="fixed-text">Fall 2023 Lecture Series</h2>
-        <body>
-          <h4>Change the Background Color Here</h4>
-          <input type="text" id="colorInput" placeholder="E.g. #FF5733 or red">
+        <h4>Change the Background Color Here</h4>
+        <input type="text" id="colorInput" placeholder="E.g. #FF5733 or red"/>
           
-          <script>
-          
+        <script>
           const colorInput = document.getElementById('colorInput');
-          
-         
           colorInput.addEventListener('input', function() {
             const color = colorInput.value;
             document.body.style.backgroundColor = color;
           });
-          </script>
-          
-            </body>
+        </script>
+      
     </div>
   
-    <script src="js/script.js"></script>
+
 
 <div class="grid-container">
   <div class="grid-item">
@@ -112,5 +108,5 @@
   </script>
 
 </style>
-</head>
+</body>
 </html>
