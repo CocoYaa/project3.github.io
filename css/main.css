@@ -5,12 +5,12 @@
 }
 
 h1 {
-    font-size: 500%;
-    text-align: center;
-    line-height: 100px;
-    height: 100px;
-    margin-bottom: 10px;
-    color: azure;
+    font-size: 500%;f
+    text-align:center;
+    line-height:100px;
+    height:100px;
+    margin-bottom:10px;
+    color:white;
     font-family: "American Typewriter", serif;
 }
 
@@ -22,7 +22,7 @@ h2 {
     position:relative;
     top: 0x;
     left: 5%;
-    color: azure;
+    color: white;
     font-family: "American Typewriter", serif;
     margin-bottom: 30px;
     margin-top: 5px;
@@ -31,7 +31,7 @@ h2 {
 h3 {
     font-family: "American Typewriter", serif;
     font-size: 30px;
-    color: aliceblue;
+    color: white;
     margin-bottom: 5px;
 }
 
@@ -39,43 +39,19 @@ h4 {
     font-family: "American Typewriter", serif;
     right: 5%;
     font-size: 20px;
-    color: rgb(255, 255, 255);
+    color: white;
     margin-bottom: 10px;
 }
 
 p {
-    color: aliceblue;
+    color: white;
     font-family: Arial, sans-serif;
     margin-top: 20px;
     text-align: left;
 }
 
-p:hover {
-    color: rgb(116, 190, 255);
-}
-
 .colored-div {
-    color: #ffffff;
-}
-
-h1:hover {
-    color: rgb(84, 249, 255);
-}
-
-h2:hover {
-    color: rgb(255, 132, 173);
-}
-
-h3:hover {
-    color: rgb(66, 56, 255);
-}
-
-h4:hover {
-    color: rgb(142, 86, 255);
-}
-
-.colored-div:hover {
-    color: #fff348;
+    color: white;
 }
 
 body {
@@ -104,10 +80,6 @@ a {
     text-decoration: none;
 }
 
-a:hover {
-    color: rgb(17, 195, 53);
-}
-
 body {
     font-family: Arial, sans-serif;
     text-align: center;
@@ -123,7 +95,7 @@ body {
     animation: typing-animation 8s steps(40, end) infinite;
     white-space: nowrap;
     overflow: hidden;
-    border-right: .15em solid orange;
+    border-right: .15em solid white;
     text-align: center;
 }
 
@@ -132,26 +104,29 @@ body {
     to { width: 100% }
 }
 
-h5 {font-size: 70px;
-    text-align: center;
-    line-height: 100px;
-    height: 100px;
-    margin-bottom: 10px;
-    color: azure;
+h5 {font-size: 180px;
+    text-align: left;
+    line-height: 180px;;
+    height: 120px;
+    margin-bottom: 0px;
+    color: white;
     font-family: "American Typewriter", serif;
 }
 
 .cc{
-    width: 30px;border:90px;background: black;
+    width: 100px;
+    height:150px;
+    background: black;
     border-bottom: 3px solid white;
-    font-size: 50px;
-    font-family: "American Typewriter", serif;
+    padding:0;
+    margin:0;
     color: white;
+    display:inline-block;
   }
 
   input {
-    width: 170px; /* 设置输入框宽度 */
-    height: 28px; /* 设置输入框高度 */
+    width: 170px;
+    height: 28px;
     font-size: 18px;
   }
 

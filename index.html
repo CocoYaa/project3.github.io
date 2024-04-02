@@ -8,27 +8,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/main.css">
     <script src="js/jquery-1.9.0.min.js"></script>
-    <script src="js/script.js"></script>
+    
   </head>
 
   <body>
     
-    <h5 class="fixed-text">Res<input type="text" class="cc" id="f1" >arch M<input type="text" class="cc" id="f2" >thods of Gr<input type="text" class="cc" id="f3" >phic Des<input type="text" class="cc" id="f4" >gn </h5>
+    <h5 class="fixed-text">Res<div class="cc" id="f1" contentEditable="true"></div>arch<br />
+      M<div class="cc" id="f2" contentEditable="true"></div>thods for<br />
+      Gr<div class="cc" id="f3" contentEditable="true"></div>phic<br >
+      Des<div class="cc" id="f4" contentEditable="true"></div>gn </h5>
     
-    <script>
-      $('.cc').blur(function(){
-        var a1=$('#f1').val()
-        var a2=$('#f2').val()
-        var a3=$('#f3').val()
-        var a4=$('#f4').val()
-        if(a1=='e' &&a2=='e'&&a3=='a'&&a4=='i'){
-          //alert('Enjoy the class!')
-          //$('#games').hide();
-          //$('#bodys').show();
-          window.location.replace("content.html");
-        }
-      })
-    </script>
+      <script src="js/scripts.js"></script>
 
   </body>
 </html>
