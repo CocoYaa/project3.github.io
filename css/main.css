@@ -5,12 +5,12 @@
 }
 
 h1 {
-    font-size: 500%;f
-    text-align:center;
-    line-height:100px;
-    height:100px;
-    margin-bottom:10px;
-    color:white;
+    font-size: 500%;
+    text-align: center;
+    line-height: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+    color: white;
     font-family: "American Typewriter", serif;
 }
 
@@ -24,7 +24,7 @@ h2 {
     left: 5%;
     color: white;
     font-family: "American Typewriter", serif;
-    margin-bottom: 30px;
+    margin-bottom: 1px;
     margin-top: 5px;
 }
 
@@ -32,7 +32,9 @@ h3 {
     font-family: "American Typewriter", serif;
     font-size: 30px;
     color: white;
-    margin-bottom: 5px;
+    margin-bottom: 3px;
+    text-align: center;
+    margin-top: 20px;
 }
 
 h4 {
@@ -40,22 +42,33 @@ h4 {
     right: 5%;
     font-size: 20px;
     color: white;
-    margin-bottom: 10px;
+    margin-bottom: 1px;
+    margin-top: 10px;
 }
 
-p {
-    color: white;
-    font-family: Arial, sans-serif;
-    margin-top: 20px;
+h5 {font-size: 180px;
     text-align: left;
+    line-height: 180px;;
+    height: 120px;
+    margin-bottom: 0px;
+    color: white;
+    font-family: "American Typewriter", serif;
 }
 
-.colored-div {
-    color: white;
+h6 {
+    text-align: center;
+}
+
+a {
+    color: rgb(255, 213, 0);
+    font-family: Arial, sans-serif;
+    text-decoration: none;
 }
 
 body {
     background-color: #000000;
+    font-family: Arial, sans-serif;
+    text-align: center;
 }
 
 .bottom-align{
@@ -70,21 +83,6 @@ body {
     vertical-align: middle;
 }
 
-.table1:hover {
-    transform: scale(1.1);
-}
-
-a {
-    color: rgb(255, 213, 0);
-    font-family: Arial, sans-serif;
-    text-decoration: none;
-}
-
-body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-}
-
 .typing-container {
     display: inline-block;
     overflow: hidden;
@@ -92,7 +90,7 @@ body {
 
 .typing-text {
     display: inline-block;
-    animation: typing-animation 8s steps(40, end) infinite;
+    animation: typing-animation 3s steps(30, end) 1 forwards;
     white-space: nowrap;
     overflow: hidden;
     border-right: .15em solid white;
@@ -104,15 +102,6 @@ body {
     to { width: 100% }
 }
 
-h5 {font-size: 180px;
-    text-align: left;
-    line-height: 180px;;
-    height: 120px;
-    margin-bottom: 0px;
-    color: white;
-    font-family: "American Typewriter", serif;
-}
-
 .cc{
     width: 100px;
     height:150px;
@@ -122,11 +111,72 @@ h5 {font-size: 180px;
     margin:0;
     color: white;
     display:inline-block;
-  }
+}
 
-  input {
+input {
     width: 170px;
     height: 28px;
     font-size: 18px;
-  }
+}
 
+.colored-div {
+    color: white;
+    text-align: center;
+}
+
+.table-image {
+    width: 400px;
+    height: 400px;
+    margin-bottom: 2px;
+    text-align: center;
+}
+
+p{
+    padding: 50px; /* 单元格内边距 */
+    text-align: center; /* 文字水平居中 */
+    vertical-align: center; /* 文字垂直居中 */
+}
+
+.table1 {
+    height: 795px;
+    width: 700px;
+}
+
+.table2 {
+    height: 700px;
+    width: 700px;
+}
+
+.table3 {
+    height: 780px;
+    width: 700px;
+}
+
+.table4 {
+    height: 830px;
+    width: 700px;
+}
+
+.table1:hover {
+    transform: scale(1.1);
+}
+
+.table2:hover {
+    transform: scale(1.1);
+}
+
+.table3:hover {
+    transform: scale(1.1);
+}
+
+.table4:hover {
+    transform: scale(1.1);
+}
+
+.external_links {
+    text-align: center;
+}
+
+td p {
+    text-align: left;
+  }
